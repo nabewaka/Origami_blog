@@ -26,6 +26,6 @@ export default function RootLayout({
 
 export const metadata = {
   verification: {
-    google: <meta name="google-site-verification" content="HygHhpyhy56xZEhlhPJguLqKyCaE_XDcRODSlVJtOZE" />,
+    google: "HygHhpyhy56xZEhlhPJguLqKyCaE_XDcRODSlVJtOZE",
   },
 };
