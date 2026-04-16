@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  /* カラー */
+  --color-white: #FFFFFF;
+  --color-black: #1A1A1A;
+  --color-black-soft: #555555;
+
+  --color-yellow: #F5A623;
+  --color-yellow-dark: #D4891A;
+  --color-yellow-light: #FDE9B8;
+
+  --color-blue: #4A90D9;
+  --color-blue-dark: #191970;
+  --color-blue-light: #EBF4FF;
+
+  --color-bg: #F0F7FF;
+
+  /* フォント */
+  --font-serif: "Noto Serif JP", "Georgia", serif;
+  --font-sans: "Noto Sans JP", sans-serif;
+
+  /* フォントサイズ */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+
+  /* 角丸 */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-black);
+    font-family: var(--font-serif);
+  }
+
+  h1 {
+    font-size: var(--text-4xl);
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: var(--text-3xl);
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: var(--text-xl);
+    font-weight: 600;
+  }
+
+  p {
+    font-size: var(--text-base);
+    line-height: 1.8;
+    color: var(--color-black-soft);
+  }
+}
+
+@layer utilities {
+  .text-center-force {
+    text-align: center !important;
+  }
+}

@@ -1,0 +1,121 @@
+[
+    {
+        "slug": "elephant",
+        "title": "ゾウ",
+        "description": "おもちゃ的かわいさ",
+        "thumbnail": "/images/ゾウ.jpg",
+        "create_date": "2026/1/28"
+    },
+    {
+        "slug": "glasses2",
+        "title": "眼鏡をかけた人 ver.2",
+        "description": "知り合いに1人は居るかも!? part2",
+        "thumbnail": "/images/glasses2.jpg",
+        "create_date": "2025/11/24"
+    },
+    {
+        "slug": "nabe",
+        "title": "マナベ",
+        "description": "トンチ系作品",
+        "thumbnail": "/images/マナベ.jpg",
+        "create_date": "2025/11/24"
+    },
+    {
+        "slug": "foodie",
+        "title": "パーカー",
+        "description": "冬のお供",
+        "thumbnail": "/images/パーカー.jpg",
+        "create_date": "2025/10/25"
+    },
+    {
+        "slug": "dog",
+        "title": "寝そべり犬",
+        "description": "脱力...",
+        "thumbnail": "/images/寝そべり犬.jpg",
+        "create_date": "2025/10/16"
+    },
+    {
+        "slug": "eggplant",
+        "title": "京なす",
+        "description": "ちょうど良い丸み。天ぷらが好き",
+        "thumbnail": "/images/京なす.jpg",
+        "create_date": "2025/9/20"
+    },
+    {
+        "slug": "sheep",
+        "title": "ヒツジ",
+        "description": "上向き！",
+        "thumbnail": "/images/ヒツジ.jpg",
+        "create_date": "2025/7/10"
+    },
+    {
+        "slug": "strawberry",
+        "title": "いちご",
+        "description": "凹みが特徴",
+        "thumbnail": "/images/いちご.jpg",
+        "create_date": "2025/6/26"
+    },
+    {
+        "slug": "pig",
+        "title": "ブタ",
+        "description": "稲吉さんの「モルモット」の構造をお借りしました",
+        "thumbnail": "/images/ブタ.jpg",
+        "create_date": "2025/6/23"
+    },
+    {
+        "slug": "arrow",
+        "title": "矢印の栞",
+        "description": "気分が上がる目印",
+        "thumbnail": "/images/矢印の栞.jpg",
+        "create_date": "2025/6/11"
+    },
+    {
+        "slug": "ittanmomen",
+        "title": "一反木綿",
+        "description": "妖怪 part2",
+        "thumbnail": "/images/一反木綿.jpg",
+        "create_date": "2025/4/30"
+    },
+    {
+        "slug": "nurikabe",
+        "title": "ぬりかべ",
+        "description": "妖怪 part1",
+        "thumbnail": "/images/ぬりかべ.jpg",
+        "create_date": "2025/4/11"
+    },
+    {
+        "slug": "balloon",
+        "title": "風船と少女",
+        "description": "バンクシーの作品",
+        "thumbnail": "/images/風船と少女.jpg",
+        "create_date": "2024/11/24"
+    },
+    {
+        "slug": "mole",
+        "title": "モグラ",
+        "description": "穴からひょっこり",
+        "thumbnail": "/images/モグラ.jpg",
+        "create_date": "2024/11/2"
+    },
+    {
+        "slug": "bear-face",
+        "title": "くまの顔",
+        "description": "優しい顔立ち",
+        "thumbnail": "/images/くまさん.jpg",
+        "create_date": "2024/10"
+    },
+    {
+        "slug": "fuji",
+        "title": "逆さ富士",
+        "description": "良い景色、富士が好きなのです",
+        "thumbnail": "/images/逆さ富士.jpg",
+        "create_date": "2024/3"
+    },
+    {
+        "slug": "glasses",
+        "title": "眼鏡をかけた人",
+        "description": "知り合いに1人は居るかも!?",
+        "thumbnail": "/images/glasses.jpg",
+        "create_date": "2023/8"
+    }
+]
