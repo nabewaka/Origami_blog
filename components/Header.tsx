@@ -32,7 +32,7 @@ export default function Header() {
                         className="text-white font-bold"
                         style={{ fontSize: "var(--text-xl)" }}
                     >
-                        おナベの折り紙記録
+                        マナベの折り紙記録
                     </Link>
                 </div>
 

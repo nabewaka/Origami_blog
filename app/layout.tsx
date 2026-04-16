@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "おナベの折り紙記録",
+  title: "マナベの折り紙記録",
   description: "眞鍋和奏の折り紙作品の紹介ページです",
 };
 
