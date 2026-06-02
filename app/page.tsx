@@ -31,11 +31,15 @@ export default function Home() {
         <h3 className=" mb-3">
           SNS↓(ご連絡もここまで)
         </h3>
-        <div className="flex flex-col sm:flex-row flex-wrap gap-3">
+        <div className="flex flex-col sm:flex-row flex-wrap gap-3 mb-3">
           <Link href="https://www.instagram.com/nabe_oriori/">
             <button
-              className="bg-blue text-white font-bold px-6 py-2 hover:bg-blue-dark transition-colors"
-              style={{ borderRadius: "var(--radius-lg)" }}
+              className="text-white font-bold px-6 py-2 transition-colors"
+              style={{
+                borderRadius: "var(--radius-lg)",
+                fontFamily: "var(--font-serif)",
+                backgroundColor: "#E1306C",
+              }}
             >
               Instagram
             </button>
@@ -43,17 +47,26 @@ export default function Home() {
 
           <Link href="https://x.com/nabe_oriori">
             <button
-              className="bg-blue text-white font-bold px-6 py-2 hover:bg-blue-dark transition-colors"
-              style={{ borderRadius: "var(--radius-lg)" }}
+              className="text-white font-bold px-6 py-2 transition-colors"
+              style={{
+                borderRadius: "var(--radius-lg)",
+                fontFamily: "var(--font-serif)",
+                backgroundColor: "#000000",
+              }}
             >
               X
             </button>
           </Link>
-
+        </div>
+        <div className="flex flex-col sm:flex-row flex-wrap gap-3 ">
           <Link href="https://www.instagram.com/imagiro_kyoto/">
             <button
-              className="bg-blue text-white font-bold px-6 py-2 hover:bg-blue-dark transition-colors"
-              style={{ borderRadius: "var(--radius-lg)" }}
+              className="text-white font-bold px-6 py-2 transition-colors"
+              style={{
+                borderRadius: "var(--radius-lg)",
+                fontFamily: "var(--font-serif)",
+                backgroundColor: "#E1306C",
+              }}
             >
               いまじろ～のInstagram
             </button>
@@ -61,8 +74,12 @@ export default function Home() {
 
           <Link href="https://x.com/KUOCimagiro">
             <button
-              className="bg-blue text-white font-bold px-6 py-2 hover:bg-blue-dark transition-colors"
-              style={{ borderRadius: "var(--radius-lg)" }}
+              className="text-white font-bold px-6 py-2 transition-colors"
+              style={{
+                borderRadius: "var(--radius-lg)",
+                fontFamily: "var(--font-serif)",
+                backgroundColor: "#000000",
+              }}
             >
               いまじろ～のX
             </button>
@@ -83,7 +100,7 @@ export default function Home() {
         </h3>
         <Link href="/works">
           <button
-            className="bg-blue text-white font-bold px-6 py-2 hover:bg-blue-dark transition-colors"
+            className="bg-yellow text-white font-bold px-6 py-2 hover:bg-yellow-dark transition-colors"
             style={{ borderRadius: "var(--radius-lg)" }}
           >
             作品一覧へ
@@ -102,7 +119,7 @@ export default function Home() {
         </h3>
         <Link href="/tsubuyaki">
           <button
-            className="bg-blue text-white font-bold px-6 py-2 hover:bg-blue-dark transition-colors"
+            className="bg-yellow text-white font-bold px-6 py-2 hover:bg-yellow-dark transition-colors"
             style={{ borderRadius: "var(--radius-lg)" }}
           >
             つぶやきへ

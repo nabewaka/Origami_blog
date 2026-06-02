@@ -15,7 +15,7 @@ export default function WorkCard({ slug, title, description, about = "", thumbna
     return (
         <Link href={`${basePath}/${slug}`}>
             <div
-                className={`${about === "homepage" ? "bg-yellow" : "bg-blue"} overflow-hidden hover:shadow-lg transition-shadow cursor-pointer`}
+                className={`bg-yellow-mid overflow-hidden hover:shadow-lg transition-shadow cursor-pointer`}
                 style={{ borderRadius: "var(--radius-lg)" }}
             >
                 {/* サムネイル画像 */}

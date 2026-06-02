@@ -9,12 +9,13 @@
   --color-yellow: #F5A623;
   --color-yellow-dark: #D4891A;
   --color-yellow-light: #FDE9B8;
+  --color-yellow-mid: #F7B845;
 
   --color-blue: #4A90D9;
   --color-blue-dark: #191970;
   --color-blue-light: #EBF4FF;
 
-  --color-bg: #F0F7FF;
+  --color-bg: #FEF3DC;
 
   /* フォント */
   --font-serif: "Noto Serif JP", "Georgia", serif;
@@ -39,7 +40,10 @@
 @layer base {
   body {
     background-color: var(--color-bg);
-    color: var(--color-black);
+    background-image:
+      linear-gradient(#FFFFFF 1px, transparent 1px),
+      linear-gradient(90deg, #FFFFFF 1px, transparent 1px);
+    background-size: 60px 60px;
     font-family: var(--font-serif);
   }
 
