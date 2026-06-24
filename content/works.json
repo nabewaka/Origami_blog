@@ -1,5 +1,19 @@
 [
     {
+        "slug": "insect_net",
+        "title": "虫取り網",
+        "description": "もうすぐ夏！虫取りの季節",
+        "thumbnail": "/images/虫取り網.jpg",
+        "create_date": "2026/6/16"
+    },
+    {
+        "slug": "pithall_and_banana",
+        "title": "落とし穴 & バナナの皮",
+        "description": "足元注意",
+        "thumbnail": "/images/落とし穴とバナナの皮.jpg",
+        "create_date": "2026/5/27"
+    },
+    {
         "slug": "cactus",
         "title": "サボテン",
         "description": "デスクに緑を！",

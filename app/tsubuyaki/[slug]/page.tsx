@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import Image from "next/image";
 import worksData from "@/content/tsubuyaki.json";
+import Link from "next/link";
 
 type Props = {
     params: Promise<{ slug: string }>;
@@ -47,7 +48,17 @@ export default async function WorkDetailPage({ params }: Props) {
             <div className="bg-white p-8 rounded-lg prose prose-lg max-w-none "
                 style={{ borderRadius: "var(--radius-lg)" }}
             >
-                <MDXRemote source={content} components={components} />
+                <MDXRemote source={content} components={components} /> 
+                <div className="flex justify-center mt-8">
+                    <Link href="../tsubuyaki">
+                        <button
+                            className="bg-yellow text-white font-bold px-6 py-2 hover:bg-yellow-dark transition-colors"
+                            style={{ borderRadius: "var(--radius-lg)" }}
+                        >
+                            つぶやきへ
+                        </button>
+                    </Link>
+                </div>
             </div>
         </article>
     );
