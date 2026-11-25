@@ -1,5 +1,19 @@
 [
     {
+        "slug": "tobihaze",
+        "title": "トビハゼ",
+        "description": "つぶらな瞳が特徴的",
+        "thumbnail": "/images/トビハゼ斜め.jpg",
+        "create_date": "2026/11/07"
+    },
+    {
+        "slug": "santa",
+        "title": "ソリ乗りサンタ",
+        "description": "ちょっと早めのクリスマス作品",
+        "thumbnail": "/images/サンタ前.jpg",
+        "create_date": "2026/10/08"
+    },
+    {
         "slug": "insect_net",
         "title": "虫取り網",
         "description": "もうすぐ夏！虫取りの季節",
